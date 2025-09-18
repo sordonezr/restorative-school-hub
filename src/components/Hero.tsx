@@ -37,8 +37,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Promovemos la responsabilización, reparación y restablecimiento de vínculos 
-            en las comunidades educativas a través de prácticas restaurativas innovadoras.
+            Promovemos la responsabilización, reparación y restablecimiento de vínculos en las comunidades educativas a través espacios de formación y aplicación de estrategias pedagógicas permanentes en el aula, orientados desde el enfoque sistémico.
           </p>
 
 
