@@ -119,19 +119,20 @@ const Footer = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <BookOpen className="w-4 h-4 text-primary" />
-                    <span>Capacitación docente en justicia restaurativa</span>
+                    <span>Consultoría especializada en formación docente frente a estrategias pedagógicas para atención de situaciones I en entorno escolar.
+</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <Users className="w-4 h-4 text-secondary" />
-                    <span>Implementación de círculos restaurativos</span>
+                    <span>Consultoría especializada para abordaje desde Comités de convivencia escolar en atención de casos en situaciones tipo II y III.</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <Scale className="w-4 h-4 text-accent" />
-                    <span>Diseño de protocolos de convivencia</span>
+                    <span>Jornadas de formación y talleres con estudiantes</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <MapPin className="w-4 h-4 text-primary" />
-                    <span>Acompañamiento a comités escolares</span>
+                    <span>Atenciones individuales con familias</span>
                   </div>
                 </div>
               </div>
