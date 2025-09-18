@@ -26,8 +26,7 @@ const Introduction = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-primary">Responsabilización</h3>
                 <p className="text-muted-foreground">
-                  Acompañamos a los estudiantes en el proceso de reconocer y asumir 
-                  responsabilidad por sus acciones de manera constructiva.
+                  Mediante un proceso de atención de caso lograr el reconocimiento del daño causado.
                 </p>
               </CardContent>
             </Card>
@@ -39,8 +38,7 @@ const Introduction = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-secondary">Reparación</h3>
                 <p className="text-muted-foreground">
-                  Facilitamos procesos donde las personas afectadas pueden sanar 
-                  y encontrar formas significativas de reparar el daño causado.
+                  Lograr que mediante procesos de atención las personas afectadas por el conflicto puedan establecer las necesidades de reparación integral.
                 </p>
               </CardContent>
             </Card>
@@ -52,8 +50,7 @@ const Introduction = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-accent">Restablecimiento</h3>
                 <p className="text-muted-foreground">
-                  Trabajamos para reconstruir y fortalecer los vínculos entre 
-                  todos los miembros de la comunidad educativa.
+                  Establecer a través de un proceso individual previo, unos acuerdos restaurativos que permitirán el restablecimiento de los vínculos afectados y propenderán por garantizar la no repetición de los daños causados.
                 </p>
               </CardContent>
             </Card>
