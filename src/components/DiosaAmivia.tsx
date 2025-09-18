@@ -69,7 +69,7 @@ const DiosaAmivia = () => {
           {/* Section header */}
           <div className="text-center space-y-6 mb-16">
             <Badge variant="secondary" className="text-sm font-medium px-4 py-2">
-              Inspiración Simbólica
+              Donde hay conflicto, ella siembra reconciliación.
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Diosa Amivía
