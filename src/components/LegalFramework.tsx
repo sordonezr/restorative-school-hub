@@ -41,8 +41,7 @@ const LegalFramework = () => {
           {/* Section header */}
           <div className="text-center space-y-6 mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Sustento Legal de la 
-              <span className="block text-primary">Justicia Restaurativa</span>
+              ¿Por qué hablar de Justicia restaurativa en los entornos escolares?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               La implementación de prácticas restaurativas en entornos escolares está respaldada 
