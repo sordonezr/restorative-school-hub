@@ -177,16 +177,13 @@ const RestorativePractices = () => {
               Principios Fundamentales del para abordar los procesos
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
+              
               Visión Sistémica: Los alumnos no son vistos como individuos aislados, sino como parte de un sistema familiar y social.  Esto implica que sus comportamientos y actitudes están influenciados por su entorno familiar y las dinámicas que allí se desarrollan. 
 
 Respeto por el Origen Familiar: Se reconoce y respeta el destino y las circunstancias familiares de cada alumno, evitando juicios o intentos de "mejorar" su situación familiar.
 
 Conciencia Intermedia: Se trabaja con la idea de que los niños perciben, de manera inconsciente, las dinámicas y emociones de su entorno, lo que influye en su comportamiento.
             </p>
-            <Button variant="hero" size="lg" className="group">
-              <Users className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Solicitar Consultoría Especializada
-            </Button>
           </div>
         </div>
       </div>
