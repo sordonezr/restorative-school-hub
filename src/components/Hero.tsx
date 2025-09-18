@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           {/* Main title */}
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight px-4">
             Justicia Restaurativa
             <span className="block text-accent bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
               en Entornos Escolares
@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed px-4">
             Promovemos la responsabilización, reparación y restablecimiento de vínculos en las comunidades educativas a través espacios de formación y aplicación de estrategias pedagógicas permanentes en el aula, orientados desde el enfoque sistémico.
           </p>
 

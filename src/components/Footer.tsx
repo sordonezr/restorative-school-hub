@@ -34,21 +34,21 @@ const Footer = () => {
               </div>
 
               {/* Contact methods */}
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 <Card className="border-0 bg-primary/5 hover:bg-primary/10 transition-colors group">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="bg-primary p-3 rounded-lg text-primary-foreground group-hover:scale-110 transition-transform">
-                        <Mail className="w-5 h-5" />
+                  <CardContent className="p-4 md:p-6">
+                    <div className="flex items-start gap-3 md:gap-4">
+                      <div className="bg-primary p-2 md:p-3 rounded-lg text-primary-foreground group-hover:scale-110 transition-transform">
+                        <Mail className="w-4 h-4 md:w-5 md:h-5" />
                       </div>
-                      <div>
-                        <h4 className="font-semibold text-foreground mb-2">Consultoría por Email</h4>
-                        <p className="text-sm text-muted-foreground mb-3">
+                      <div className="min-w-0 flex-1">
+                        <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">Consultoría por Email</h4>
+                        <p className="text-xs md:text-sm text-muted-foreground mb-3">
                           Agenda una sesión de consultoría personalizada
                         </p>
-                        <Button variant="soft" size="sm" className="group/btn">
-                          <span>consultoria@justicia-restaurativa.edu.co</span>
-                          <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform ml-2" />
+                        <Button variant="soft" size="sm" className="group/btn text-xs md:text-sm w-full md:w-auto">
+                          <span className="truncate">consultoria@justicia-restaurativa.edu.co</span>
+                          <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover/btn:translate-x-1 transition-transform ml-1 md:ml-2 flex-shrink-0" />
                         </Button>
                       </div>
                     </div>
@@ -56,19 +56,19 @@ const Footer = () => {
                 </Card>
 
                 <Card className="border-0 bg-secondary/5 hover:bg-secondary/10 transition-colors group">
-                  <CardContent className="p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="bg-secondary p-3 rounded-lg text-secondary-foreground group-hover:scale-110 transition-transform">
-                        <Phone className="w-5 h-5" />
+                  <CardContent className="p-4 md:p-6">
+                    <div className="flex items-start gap-3 md:gap-4">
+                      <div className="bg-secondary p-2 md:p-3 rounded-lg text-secondary-foreground group-hover:scale-110 transition-transform">
+                        <Phone className="w-4 h-4 md:w-5 md:h-5" />
                       </div>
-                      <div>
-                        <h4 className="font-semibold text-foreground mb-2">Llamada Directa</h4>
-                        <p className="text-sm text-muted-foreground mb-3">
+                      <div className="min-w-0 flex-1">
+                        <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">Llamada Directa</h4>
+                        <p className="text-xs md:text-sm text-muted-foreground mb-3">
                           Conversemos sobre las necesidades de tu institución
                         </p>
-                        <Button variant="soft" size="sm" className="group/btn">
+                        <Button variant="soft" size="sm" className="group/btn text-xs md:text-sm w-full md:w-auto">
                           <span>+57 (1) 234-5678</span>
-                          <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform ml-2" />
+                          <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover/btn:translate-x-1 transition-transform ml-1 md:ml-2 flex-shrink-0" />
                         </Button>
                       </div>
                     </div>
@@ -78,25 +78,25 @@ const Footer = () => {
 
               {/* Newsletter signup */}
               <Card className="border-2 border-accent/20 bg-gradient-to-r from-accent/5 to-accent/10">
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="bg-accent p-3 rounded-lg text-accent-foreground">
-                      <Send className="w-5 h-5" />
+                <CardContent className="p-4 md:p-6">
+                  <div className="flex flex-col sm:flex-row items-start gap-3 md:gap-4">
+                    <div className="bg-accent p-2 md:p-3 rounded-lg text-accent-foreground">
+                      <Send className="w-4 h-4 md:w-5 md:h-5" />
                     </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-foreground mb-2">
+                    <div className="flex-1 w-full">
+                      <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">
                         Mantente Actualizado
                       </h4>
-                      <p className="text-sm text-muted-foreground mb-4">
+                      <p className="text-xs md:text-sm text-muted-foreground mb-4">
                         Recibe las últimas novedades sobre justicia restaurativa, talleres y recursos educativos
                       </p>
-                      <div className="flex gap-2">
+                      <div className="flex flex-col sm:flex-row gap-2">
                         <input 
                           type="email" 
                           placeholder="tu@email.com" 
-                          className="flex-1 px-3 py-2 text-sm rounded-md border border-input bg-background"
+                          className="flex-1 px-3 py-2 text-sm rounded-md border border-input bg-background min-w-0"
                         />
-                        <Button variant="accent" size="sm">Suscribirse</Button>
+                        <Button variant="accent" size="sm" className="w-full sm:w-auto">Suscribirse</Button>
                       </div>
                     </div>
                   </div>
@@ -112,21 +112,20 @@ const Footer = () => {
                   Áreas de Servicio
                 </h3>
                 <div className="space-y-4">
-                  <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <BookOpen className="w-4 h-4 text-primary" />
-                    <span>Consultoría especializada en formación docente frente a estrategias pedagógicas para atención de situaciones I en entorno escolar.
-</span>
+                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
+                    <BookOpen className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Consultoría especializada en formación docente frente a estrategias pedagógicas para atención de situaciones I en entorno escolar.</span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <Users className="w-4 h-4 text-secondary" />
+                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
+                    <Users className="w-4 h-4 text-secondary flex-shrink-0 mt-0.5" />
                     <span>Consultoría especializada para abordaje desde Comités de convivencia escolar en atención de casos en situaciones tipo II y III.</span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <Scale className="w-4 h-4 text-accent" />
+                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
+                    <Scale className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
                     <span>Jornadas de formación y talleres con estudiantes</span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <MapPin className="w-4 h-4 text-primary" />
+                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
+                    <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
                     <span>Atenciones individuales con familias</span>
                   </div>
                 </div>

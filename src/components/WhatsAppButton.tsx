@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
       {/* Improved floating message */}
       <div className={cn(
         "absolute bottom-20 right-0",
-        "bg-card/95 backdrop-blur-sm border border-border rounded-xl shadow-2xl p-4 w-72",
+        "bg-card/95 backdrop-blur-sm border border-border rounded-xl shadow-2xl p-3 sm:p-4 w-64 sm:w-72",
         "transform translate-x-4 translate-y-2 opacity-0 scale-90 pointer-events-none",
         "group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto",
         "transition-all duration-500 ease-out",
@@ -25,14 +25,14 @@ const WhatsAppButton = () => {
         "after:border-t-[10px] after:border-t-card",
         "after:transform after:translate-y-full after:translate-x-[2px] after:-translate-y-[2px]"
       )}>
-        <div className="flex items-start space-x-3">
+        <div className="flex items-start space-x-2 sm:space-x-3">
           <div className="flex-shrink-0">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
-              <Heart size={20} className="text-white" fill="currentColor" />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center">
+              <Heart size={16} className="text-white sm:w-5 sm:h-5" fill="currentColor" />
             </div>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-foreground mb-1">
+            <p className="text-xs sm:text-sm font-semibold text-foreground mb-1">
               ✨ Amivía está aquí para ti
             </p>
             <p className="text-xs text-muted-foreground leading-relaxed">
