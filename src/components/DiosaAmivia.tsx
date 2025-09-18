@@ -10,6 +10,7 @@ import {
   Sprout,
   CircleDot
 } from "lucide-react";
+import diosaAmiviaImage from "@/assets/diosa-amivia.png";
 
 const DiosaAmivia = () => {
   const attributes = [
@@ -161,13 +162,22 @@ const DiosaAmivia = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="space-y-4">
-                {appearance.map((item, index) => (
-                  <div key={index} className="flex items-start gap-3 p-3 bg-primary/10 rounded-lg">
-                    <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0 mt-2"></div>
-                    <p className="text-muted-foreground leading-relaxed">{item}</p>
-                  </div>
-                ))}
+              <div className="flex flex-col lg:flex-row gap-8 items-center">
+                <div className="lg:w-1/2">
+                  <img 
+                    src={diosaAmiviaImage} 
+                    alt="Diosa Amivía - Guardiana de la Justicia Restaurativa"
+                    className="w-full max-w-md mx-auto rounded-xl shadow-2xl"
+                  />
+                </div>
+                <div className="lg:w-1/2 space-y-4">
+                  {appearance.map((item, index) => (
+                    <div key={index} className="flex items-start gap-3 p-3 bg-primary/10 rounded-lg">
+                      <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0 mt-2"></div>
+                      <p className="text-muted-foreground leading-relaxed">{item}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </CardContent>
           </Card>
