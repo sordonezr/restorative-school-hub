@@ -47,7 +47,7 @@ const Footer = () => {
                           Agenda una sesión de consultoría personalizada
                         </p>
                         <Button variant="soft" size="sm" className="group/btn text-xs w-full">
-                          <span className="truncate">consultoria@justicia-restaurativa.edu.co</span>
+                          <span className="truncate">marialejandra.vap@gmail.com</span>
                           <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                           Conversemos sobre las necesidades de tu institución
                         </p>
                         <Button variant="soft" size="sm" className="group/btn text-xs w-full">
-                          <span>+57 (1) 234-5678</span>
+                          <span>+57 3016600525</span>
                           <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
@@ -153,7 +153,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con Docentes</h4>
-                        <p className="text-xs text-muted-foreground leading-relaxed">
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
                         </p>
                       </div>
@@ -167,7 +167,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con los Padres</h4>
-                        <p className="text-xs text-muted-foreground leading-relaxed">
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta. Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
                         </p>
                       </div>
@@ -181,7 +181,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo en el Aula</h4>
-                        <p className="text-xs text-muted-foreground leading-relaxed">
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
                         </p>
                       </div>
@@ -195,7 +195,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Asistencias en Atención a Casos</h4>
-                        <p className="text-xs text-muted-foreground leading-relaxed">
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Acompañamiento especializado para la resolución de situaciones específicas que requieren intervención directa y personalizada.
                         </p>
                       </div>
@@ -218,7 +218,7 @@ const Footer = () => {
               
               <div className="text-sm text-muted-foreground text-center">
                 <p>
-                  © 2025 Justicia Restaurativa en Entornos Escolares. 
+                  © 2024 Justicia Restaurativa en Entornos Escolares. 
                   <span className="block md:inline md:ml-2">
                     Construyendo comunidades educativas más justas y empáticas.
                   </span>
