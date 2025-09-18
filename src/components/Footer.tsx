@@ -24,17 +24,12 @@ const Footer = () => {
             {/* Contact and CTA */}
             <div className="lg:col-span-2 space-y-8">
               <div className="space-y-6">
-                <Badge variant="secondary" className="text-sm font-medium px-4 py-2">
-                  Contacto y Consultoría
-                </Badge>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground">
                   Transforma tu Comunidad Educativa
                   <span className="block text-primary">con Justicia Restaurativa</span>
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                  Nuestro equipo especializado está listo para acompañarte en la implementación 
-                  de prácticas restaurativas que fortalezcan la convivencia y promuevan una 
-                  cultura de paz en tu institución educativa.
+                  Estoy lista para acompañarte en la implementación de procesos restaurativos que fortalezcan la conviviencia y promuevan una cultura de paz en tu institución educativa. 
                 </p>
               </div>
 
