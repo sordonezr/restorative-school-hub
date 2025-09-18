@@ -174,11 +174,14 @@ const RestorativePractices = () => {
           {/* Call to action */}
           <div className="mt-16 text-center bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              ¿Listo para Transformar tu Institución Educativa?
+              Principios Fundamentales del para abordar los procesos
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Acompañamos a tu comunidad educativa en la implementación de prácticas restaurativas 
-              adaptadas a sus necesidades específicas.
+              Visión Sistémica: Los alumnos no son vistos como individuos aislados, sino como parte de un sistema familiar y social.  Esto implica que sus comportamientos y actitudes están influenciados por su entorno familiar y las dinámicas que allí se desarrollan. 
+
+Respeto por el Origen Familiar: Se reconoce y respeta el destino y las circunstancias familiares de cada alumno, evitando juicios o intentos de "mejorar" su situación familiar.
+
+Conciencia Intermedia: Se trabaja con la idea de que los niños perciben, de manera inconsciente, las dinámicas y emociones de su entorno, lo que influye en su comportamiento.
             </p>
             <Button variant="hero" size="lg" className="group">
               <Users className="w-5 h-5 group-hover:scale-110 transition-transform" />
