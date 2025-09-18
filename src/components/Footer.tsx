@@ -135,19 +135,62 @@ const Footer = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-6">
                   Componentes de Formación y Capacitación
                 </h3>
-                <div className="space-y-3">
-                  <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Trabajo con docentes: Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
-                  </a>
-                  <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Trabajo con los Padres: Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta.  Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
-                  </a>
-                  <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Trabajo en el aula: Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
-                  </a>
-                  <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Asistencias en atención a casos
-                  </a>
+                <div className="space-y-6">
+                  <div className="group hover:bg-primary/5 p-4 rounded-lg transition-colors">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
+                        <BookOpen className="w-4 h-4 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo con Docentes</h4>
+                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                          Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="group hover:bg-secondary/5 p-4 rounded-lg transition-colors">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-secondary/10 p-2 rounded-full flex-shrink-0 mt-1">
+                        <Users className="w-4 h-4 text-secondary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo con los Padres</h4>
+                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                          Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta. Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="group hover:bg-accent/5 p-4 rounded-lg transition-colors">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-accent/10 p-2 rounded-full flex-shrink-0 mt-1">
+                        <Heart className="w-4 h-4 text-accent" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo en el Aula</h4>
+                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                          Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="group hover:bg-primary/5 p-4 rounded-lg transition-colors">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
+                        <Scale className="w-4 h-4 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-2 text-sm">Asistencias en Atención a Casos</h4>
+                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                          Acompañamiento especializado para la resolución de situaciones específicas que requieren intervención directa y personalizada.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
