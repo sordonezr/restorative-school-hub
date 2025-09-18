@@ -47,7 +47,7 @@ const Footer = () => {
                           Agenda una sesión de consultoría personalizada
                         </p>
                         <Button variant="soft" size="sm" className="group/btn text-xs w-full">
-                          <span className="truncate">consultoria@justicia-restaurativa.edu.co</span>
+                          <span className="truncate">marialejandra.vap@gmail.com</span>
                           <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                           Conversemos sobre las necesidades de tu institución
                         </p>
                         <Button variant="soft" size="sm" className="group/btn text-xs w-full">
-                          <span>+57 (1) 234-5678</span>
+                          <span>+57 3057057216</span>
                           <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
