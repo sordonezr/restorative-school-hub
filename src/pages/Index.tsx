@@ -5,6 +5,7 @@ import LegalFramework from "@/components/LegalFramework";
 import ConflictTypes from "@/components/ConflictTypes";
 import RestorativePractices from "@/components/RestorativePractices";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <ConflictTypes />
       <RestorativePractices />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 };
