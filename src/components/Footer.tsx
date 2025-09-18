@@ -153,7 +153,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con Docentes</h4>
-                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                           Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
                         </p>
                       </div>
@@ -167,7 +167,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con los Padres</h4>
-                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                           Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta. Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
                         </p>
                       </div>
@@ -181,7 +181,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo en el Aula</h4>
-                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                           Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
                         </p>
                       </div>
@@ -195,7 +195,7 @@ const Footer = () => {
                       </div>
                       <div>
                         <h4 className="font-medium text-foreground mb-1 text-sm">Asistencias en Atención a Casos</h4>
-                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                           Acompañamiento especializado para la resolución de situaciones específicas que requieren intervención directa y personalizada.
                         </p>
                       </div>
