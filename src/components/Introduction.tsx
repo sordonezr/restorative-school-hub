@@ -59,14 +59,10 @@ const Introduction = () => {
           {/* Mission statement */}
           <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl p-8 mt-16">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Nuestra Misión
+              Nuestro Objetivo
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Acompañar a las instituciones educativas en la implementación de un modelo de 
-              convivencia basado en los principios de la justicia restaurativa, promoviendo 
-              la <strong className="text-primary">corresponsabilidad</strong>, el <strong className="text-secondary">interés superior 
-              del niño, niña y adolescente</strong>, y la creación de <strong className="text-accent">entornos protectores</strong> que 
-              prevengan el escalamiento de conflictos y la reincidencia.
+              Acompañar a las instituciones educativas y en general a los diferentes actores que abordan la convivencia escolar en la implementación de unas estrategias de atención desde el enfoque sistémico, de prevención y atención de casos, basado en los principios de la justicia restaurativa, promoviendo la corresponsabilidad, el interés superior del niño, niña y adolescente, y la creación de entornos protectores que prevengan el escalamiento de conflictos y la reincidencia.
             </p>
           </div>
         </div>
