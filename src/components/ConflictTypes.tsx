@@ -135,15 +135,10 @@ const ConflictTypes = () => {
             <div className="max-w-4xl mx-auto text-center space-y-6">
               <div className="flex items-center justify-center gap-2 mb-4">
                 <Scale className="w-8 h-8 text-primary" />
-                <h3 className="text-2xl font-bold text-primary">Principio Fundamental</h3>
+                <h3 className="text-2xl font-bold text-primary">Aspectos importantes </h3>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                En todos los casos, el abordaje desde la justicia restaurativa busca 
-                <strong className="text-primary"> evitar la estigmatización y revictimización</strong> de las 
-                partes involucradas, promoviendo procesos que generen aprendizaje, sanación y 
-                fortalecimiento de la comunidad educativa. <strong className="text-secondary">Ningún proceso 
-                restaurativo constituye un fin en sí mismo</strong>, sino que es el medio para materializar 
-                acuerdos que requieren seguimiento, evaluación y cierre formal.
+                En todos los casos, el abordaje desde la justicia restaurativa busca evitar la estigmatización y revictimización de las partes involucradas, promoviendo procesos que generen las finalidades restaurativas (3R) de la comunidad educativa. Las practicas restaurativas no constituyen un fin en sí mismo, son el medio para materializar acuerdos que requieren seguimiento, evaluación y cierre formal, que permita establecer acuerdos completamente restaurativos.
               </p>
             </div>
           </div>
