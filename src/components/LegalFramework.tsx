@@ -44,9 +44,7 @@ const LegalFramework = () => {
               ¿Por qué hablar de Justicia restaurativa en los entornos escolares?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              La implementación de prácticas restaurativas en entornos escolares está respaldada 
-              por un sólido marco normativo que garantiza su aplicación efectiva y protege los 
-              derechos de todos los actores de la comunidad educativa.
+              La justicia restaurativa es el cómo pedagógico y relacional desde un enfoque integral en el que intervienen todos los afectados por el conflicto, que la escuela usa para cumplir el qué normativo , amparado en el amplio marco jurídico internacional ratificado por la constitución colombiana y  establecido en la Ley 1620/2013 y su Decreto 1965/2013: gestionar conflictos privilegiando la responsabilización, reparación, y el restablecimiento de vínculos, activando instancias externas sólo cuando el caso trasciende el ámbito escolar, utilizando herramientas que permitan abordar el proceso desde una mirada integral y holística.
             </p>
           </div>
 
