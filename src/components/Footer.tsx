@@ -139,20 +139,20 @@ const Footer = () => {
 
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-6">
-                  Recursos Adicionales
+                  Componentes de Formación y Capacitación
                 </h3>
                 <div className="space-y-3">
                   <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Guía de implementación Ley 1620
+                    Trabajo con docentes: Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
                   </a>
                   <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Casos de éxito en instituciones
+                    Trabajo con los Padres: Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta.  Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
                   </a>
                   <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Biblioteca de recursos pedagógicos
+                    Trabajo en el aula: Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
                   </a>
                   <a href="#" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                    Formación continua para educadores
+                    Asistencias en atención a casos
                   </a>
                 </div>
               </div>
