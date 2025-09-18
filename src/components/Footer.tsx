@@ -19,36 +19,36 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           {/* Main footer content */}
-          <div className="grid lg:grid-cols-3 gap-12 mb-16">
+          <div className="grid lg:grid-cols-2 gap-8 mb-12">
             
-            {/* Contact and CTA */}
-            <div className="lg:col-span-2 space-y-8">
-              <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+            {/* Left column - Main CTA and Contact methods */}
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <h2 className="text-2xl md:text-3xl font-bold text-foreground leading-tight">
                   Transforma tu Comunidad Educativa
                   <span className="block text-primary">con Justicia Restaurativa</span>
                 </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                  Estoy lista para acompañarte en la implementación de procesos restaurativos que fortalezcan la conviviencia y promuevan una cultura de paz en tu institución educativa. 
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                  Estoy lista para acompañarte en la implementación de procesos restaurativos que fortalezcan la convivencia y promuevan una cultura de paz en tu institución educativa. 
                 </p>
               </div>
 
               {/* Contact methods */}
-              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-3">
                 <Card className="border-0 bg-primary/5 hover:bg-primary/10 transition-colors group">
-                  <CardContent className="p-4 md:p-6">
-                    <div className="flex items-start gap-3 md:gap-4">
-                      <div className="bg-primary p-2 md:p-3 rounded-lg text-primary-foreground group-hover:scale-110 transition-transform">
-                        <Mail className="w-4 h-4 md:w-5 md:h-5" />
+                  <CardContent className="p-3 md:p-4">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-primary p-2 rounded-lg text-primary-foreground group-hover:scale-110 transition-transform">
+                        <Mail className="w-4 h-4" />
                       </div>
                       <div className="min-w-0 flex-1">
-                        <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">Consultoría por Email</h4>
-                        <p className="text-xs md:text-sm text-muted-foreground mb-3">
+                        <h4 className="font-semibold text-foreground mb-1 text-sm">Consultoría por Email</h4>
+                        <p className="text-xs text-muted-foreground mb-2">
                           Agenda una sesión de consultoría personalizada
                         </p>
-                        <Button variant="soft" size="sm" className="group/btn text-xs md:text-sm w-full md:w-auto">
+                        <Button variant="soft" size="sm" className="group/btn text-xs w-full">
                           <span className="truncate">consultoria@justicia-restaurativa.edu.co</span>
-                          <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover/btn:translate-x-1 transition-transform ml-1 md:ml-2 flex-shrink-0" />
+                          <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
                     </div>
@@ -56,19 +56,19 @@ const Footer = () => {
                 </Card>
 
                 <Card className="border-0 bg-secondary/5 hover:bg-secondary/10 transition-colors group">
-                  <CardContent className="p-4 md:p-6">
-                    <div className="flex items-start gap-3 md:gap-4">
-                      <div className="bg-secondary p-2 md:p-3 rounded-lg text-secondary-foreground group-hover:scale-110 transition-transform">
-                        <Phone className="w-4 h-4 md:w-5 md:h-5" />
+                  <CardContent className="p-3 md:p-4">
+                    <div className="flex items-start gap-3">
+                      <div className="bg-secondary p-2 rounded-lg text-secondary-foreground group-hover:scale-110 transition-transform">
+                        <Phone className="w-4 h-4" />
                       </div>
                       <div className="min-w-0 flex-1">
-                        <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">Llamada Directa</h4>
-                        <p className="text-xs md:text-sm text-muted-foreground mb-3">
+                        <h4 className="font-semibold text-foreground mb-1 text-sm">Llamada Directa</h4>
+                        <p className="text-xs text-muted-foreground mb-2">
                           Conversemos sobre las necesidades de tu institución
                         </p>
-                        <Button variant="soft" size="sm" className="group/btn text-xs md:text-sm w-full md:w-auto">
+                        <Button variant="soft" size="sm" className="group/btn text-xs w-full">
                           <span>+57 (1) 234-5678</span>
-                          <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover/btn:translate-x-1 transition-transform ml-1 md:ml-2 flex-shrink-0" />
+                          <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
                     </div>
@@ -78,16 +78,16 @@ const Footer = () => {
 
               {/* Newsletter signup */}
               <Card className="border-2 border-accent/20 bg-gradient-to-r from-accent/5 to-accent/10">
-                <CardContent className="p-4 md:p-6">
-                  <div className="flex flex-col sm:flex-row items-start gap-3 md:gap-4">
-                    <div className="bg-accent p-2 md:p-3 rounded-lg text-accent-foreground">
-                      <Send className="w-4 h-4 md:w-5 md:h-5" />
+                <CardContent className="p-3 md:p-4">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-accent p-2 rounded-lg text-accent-foreground">
+                      <Send className="w-4 h-4" />
                     </div>
                     <div className="flex-1 w-full">
-                      <h4 className="font-semibold text-foreground mb-2 text-sm md:text-base">
+                      <h4 className="font-semibold text-foreground mb-1 text-sm">
                         Mantente Actualizado
                       </h4>
-                      <p className="text-xs md:text-sm text-muted-foreground mb-4">
+                      <p className="text-xs text-muted-foreground mb-3">
                         Recibe las últimas novedades sobre justicia restaurativa, talleres y recursos educativos
                       </p>
                       <div className="flex flex-col sm:flex-row gap-2">
@@ -104,88 +104,98 @@ const Footer = () => {
               </Card>
             </div>
 
-            {/* Service areas and quick links */}
-            <div className="space-y-8">
+            {/* Right column - Services and Training Components */}
+            <div className="space-y-6">
+              {/* Service areas */}
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-6 flex items-center gap-2">
-                  <Heart className="w-5 h-5 text-primary" />
+                <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <Heart className="w-4 h-4 text-primary" />
                   Áreas de Servicio
                 </h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
-                    <BookOpen className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                <div className="space-y-3">
+                  <div className="flex items-start gap-2 text-xs text-muted-foreground">
+                    <div className="bg-primary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                      <BookOpen className="w-3 h-3 text-primary" />
+                    </div>
                     <span>Consultoría especializada en formación docente frente a estrategias pedagógicas para atención de situaciones I en entorno escolar.</span>
                   </div>
-                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
-                    <Users className="w-4 h-4 text-secondary flex-shrink-0 mt-0.5" />
+                  <div className="flex items-start gap-2 text-xs text-muted-foreground">
+                    <div className="bg-secondary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                      <Users className="w-3 h-3 text-secondary" />
+                    </div>
                     <span>Consultoría especializada para abordaje desde Comités de convivencia escolar en atención de casos en situaciones tipo II y III.</span>
                   </div>
-                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
-                    <Scale className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                  <div className="flex items-start gap-2 text-xs text-muted-foreground">
+                    <div className="bg-accent/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                      <Scale className="w-3 h-3 text-accent" />
+                    </div>
                     <span>Jornadas de formación y talleres con estudiantes</span>
                   </div>
-                  <div className="flex items-start gap-3 text-xs sm:text-sm text-muted-foreground">
-                    <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                  <div className="flex items-start gap-2 text-xs text-muted-foreground">
+                    <div className="bg-primary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                      <MapPin className="w-3 h-3 text-primary" />
+                    </div>
                     <span>Atenciones individuales con familias</span>
                   </div>
                 </div>
               </div>
 
+              {/* Training components */}
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-6">
+                <h3 className="text-lg font-semibold text-foreground mb-4">
                   Componentes de Formación y Capacitación
                 </h3>
-                <div className="space-y-6">
-                  <div className="group hover:bg-primary/5 p-4 rounded-lg transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
-                        <BookOpen className="w-4 h-4 text-primary" />
+                <div className="space-y-3">
+                  <div className="group hover:bg-primary/5 p-3 rounded-lg transition-colors">
+                    <div className="flex items-start gap-2">
+                      <div className="bg-primary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                        <BookOpen className="w-3 h-3 text-primary" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo con Docentes</h4>
-                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                        <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con Docentes</h4>
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Los docentes participan en talleres y formaciones de Justicia Restaurativa, atención de casos desde el modelo sistémico y técnicas de resolución de conflictos, buscando el desarrollo de habilidades en el uso de herramientas como la representación de conflictos, el trabajo con lo imaginativo y las frases simbólicas.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="group hover:bg-secondary/5 p-4 rounded-lg transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-secondary/10 p-2 rounded-full flex-shrink-0 mt-1">
-                        <Users className="w-4 h-4 text-secondary" />
+                  <div className="group hover:bg-secondary/5 p-3 rounded-lg transition-colors">
+                    <div className="flex items-start gap-2">
+                      <div className="bg-secondary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                        <Users className="w-3 h-3 text-secondary" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo con los Padres</h4>
-                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                        <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo con los Padres</h4>
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Se fomenta la colaboración con las familias, promoviendo el respeto mutuo y la comunicación abierta. Los padres son vistos como aliados en el proceso educativo. Rituales y Gestos Simbólicos: Se utilizan gestos como la reverencia o frases simbólicas para fomentar el respeto y la reconciliación entre los alumnos y sus familias.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="group hover:bg-accent/5 p-4 rounded-lg transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-accent/10 p-2 rounded-full flex-shrink-0 mt-1">
-                        <Heart className="w-4 h-4 text-accent" />
+                  <div className="group hover:bg-accent/5 p-3 rounded-lg transition-colors">
+                    <div className="flex items-start gap-2">
+                      <div className="bg-accent/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                        <Heart className="w-3 h-3 text-accent" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2 text-sm">Trabajo en el Aula</h4>
-                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                        <h4 className="font-medium text-foreground mb-1 text-sm">Trabajo en el Aula</h4>
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Creación de un Ambiente Seguro: Se busca que el aula sea un espacio donde los alumnos se sientan aceptados y respetados, independientemente de sus circunstancias familiares.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="group hover:bg-primary/5 p-4 rounded-lg transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="bg-primary/10 p-2 rounded-full flex-shrink-0 mt-1">
-                        <Scale className="w-4 h-4 text-primary" />
+                  <div className="group hover:bg-primary/5 p-3 rounded-lg transition-colors">
+                    <div className="flex items-start gap-2">
+                      <div className="bg-primary/10 p-1 rounded-full flex-shrink-0 mt-0.5">
+                        <Scale className="w-3 h-3 text-primary" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-2 text-sm">Asistencias en Atención a Casos</h4>
-                        <p className="text-xs sm:text-sm text-muted-foreground text-justify leading-relaxed">
+                        <h4 className="font-medium text-foreground mb-1 text-sm">Asistencias en Atención a Casos</h4>
+                        <p className="text-xs text-muted-foreground text-justify leading-relaxed">
                           Acompañamiento especializado para la resolución de situaciones específicas que requieren intervención directa y personalizada.
                         </p>
                       </div>
