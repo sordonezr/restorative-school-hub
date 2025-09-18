@@ -67,7 +67,7 @@ const Footer = () => {
                           Conversemos sobre las necesidades de tu institución
                         </p>
                         <Button variant="soft" size="sm" className="group/btn text-xs w-full">
-                          <span>+57 3016600525</span>
+                          <span>+57 3057057216</span>
                           <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform ml-1 flex-shrink-0" />
                         </Button>
                       </div>
