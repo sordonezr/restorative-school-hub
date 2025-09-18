@@ -40,9 +40,6 @@ const LegalFramework = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center space-y-6 mb-16">
-            <Badge variant="secondary" className="text-sm font-medium px-4 py-2">
-              Marco Normativo Nacional
-            </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Sustento Legal de la 
               <span className="block text-primary">Justicia Restaurativa</span>
