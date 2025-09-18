@@ -82,10 +82,6 @@ const LegalFramework = () => {
           {/* Key law highlight */}
           <div className="mt-16 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-2xl p-8 border border-primary/20">
             <div className="max-w-4xl mx-auto text-center space-y-6">
-              <div className="flex items-center justify-center gap-2 mb-4">
-                <Shield className="w-8 h-8 text-primary" />
-                <h3 className="text-2xl font-bold text-primary">Ley 1620 de 2013</h3>
-              </div>
               <h4 className="text-xl font-semibold text-foreground">
                 "Sistema Nacional de Convivencia Escolar y Formación para el Ejercicio de los Derechos Humanos"
               </h4>
