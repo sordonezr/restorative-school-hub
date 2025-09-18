@@ -41,33 +41,6 @@ const Hero = () => {
             en las comunidades educativas a través de prácticas restaurativas innovadoras.
           </p>
 
-          {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-8 py-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-accent">3</div>
-              <div className="text-sm text-white/80">Principios Fundamentales</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-accent">+1620</div>
-              <div className="text-sm text-white/80">Ley Marco Nacional</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-accent">∞</div>
-              <div className="text-sm text-white/80">Oportunidades de Crecimiento</div>
-            </div>
-          </div>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button variant="hero" size="lg" className="group">
-              <BookOpen className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              Conocer Marco Normativo
-            </Button>
-            <Button variant="accent" size="lg" className="group">
-              <Users className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Consultoría Especializada
-            </Button>
-          </div>
 
           {/* Scroll indicator */}
           <button
