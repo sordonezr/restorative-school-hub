@@ -64,9 +64,6 @@ const ConflictTypes = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
           <div className="text-center space-y-6 mb-16">
-            <Badge variant="outline" className="text-sm font-medium px-4 py-2">
-              Protocolo de Atención - Ley 1620 de 2013
-            </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Tipos de Conflictos y
               <span className="block text-primary">Estrategias de Abordaje</span>
