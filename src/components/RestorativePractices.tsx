@@ -171,19 +171,42 @@ const RestorativePractices = () => {
             </Card>
           </div>
 
-          {/* Call to action */}
-          <div className="mt-16 text-center bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Principios Fundamentales del para abordar los procesos
+          {/* Principios Fundamentales */}
+          <div className="mt-16 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
+              Principios Fundamentales para abordar los procesos
             </h3>
-            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+              <div className="bg-background/60 backdrop-blur-sm rounded-xl p-6 border border-primary/20">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-primary rounded-full"></div>
+                  <h4 className="font-semibold text-primary text-lg">Visión Sistémica</h4>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Los alumnos no son vistos como individuos aislados, sino como parte de un sistema familiar y social. Sus comportamientos están influenciados por su entorno familiar y las dinámicas que allí se desarrollan.
+                </p>
+              </div>
               
-              Visión Sistémica: Los alumnos no son vistos como individuos aislados, sino como parte de un sistema familiar y social.  Esto implica que sus comportamientos y actitudes están influenciados por su entorno familiar y las dinámicas que allí se desarrollan. 
-
-Respeto por el Origen Familiar: Se reconoce y respeta el destino y las circunstancias familiares de cada alumno, evitando juicios o intentos de "mejorar" su situación familiar.
-
-Conciencia Intermedia: Se trabaja con la idea de que los niños perciben, de manera inconsciente, las dinámicas y emociones de su entorno, lo que influye en su comportamiento.
-            </p>
+              <div className="bg-background/60 backdrop-blur-sm rounded-xl p-6 border border-secondary/20">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-secondary rounded-full"></div>
+                  <h4 className="font-semibold text-secondary text-lg">Respeto por el Origen Familiar</h4>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Se reconoce y respeta el destino y las circunstancias familiares de cada alumno, evitando juicios o intentos de "mejorar" su situación familiar.
+                </p>
+              </div>
+              
+              <div className="bg-background/60 backdrop-blur-sm rounded-xl p-6 border border-accent/20">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-accent rounded-full"></div>
+                  <h4 className="font-semibold text-accent text-lg">Conciencia Intermedia</h4>
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  Se trabaja con la idea de que los niños perciben, de manera inconsciente, las dinámicas y emociones de su entorno, lo que influye en su comportamiento.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
