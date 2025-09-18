@@ -11,6 +11,7 @@ import {
   CircleDot
 } from "lucide-react";
 import diosaAmiviaImage from "@/assets/diosa-amivia.png";
+import simboloAmiviaImage from "@/assets/simbolo-amivia.png";
 
 const DiosaAmivia = () => {
   const attributes = [
@@ -106,11 +107,18 @@ const DiosaAmivia = () => {
                   Símbolo
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-muted-foreground leading-relaxed">
-                  Un círculo tejido con tres hilos de colores representando los espacios restaurativos 
-                  donde todas las voces tienen lugar y el vínculo se reconstruye:
-                </p>
+              <CardContent className="space-y-6">
+                <div className="flex flex-col items-center text-center">
+                  <img 
+                    src={simboloAmiviaImage}
+                    alt="Símbolo de Diosa Amivía - Círculo tejido con tres hilos de colores"
+                    className="w-64 h-64 object-cover rounded-full shadow-2xl mb-4"
+                  />
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    Un círculo tejido con tres hilos de colores representando los espacios restaurativos 
+                    donde todas las voces tienen lugar y el vínculo se reconstruye:
+                  </p>
+                </div>
                 <div className="space-y-3">
                   {symbolColors.map((item, index) => (
                     <div key={index} className="flex items-center gap-3 p-3 bg-secondary/10 rounded-lg">
